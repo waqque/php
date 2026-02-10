@@ -27,3 +27,4 @@ def test_divide_zero():
 if __name__ == "__main__":
     test_divide()
     test_sum()
+    test_divide_zero()
