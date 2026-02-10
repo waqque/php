@@ -11,7 +11,7 @@ def test_divide():
     assert divide(a, b) == result
 def test_division_prohibited():
     try:
-        divide("A", "B")
+        divide([1, 2, 4], [1, 2, 3])
         print("Test-string-division failed")
         assert False
     except ValueError as e:
